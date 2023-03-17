@@ -1,0 +1,22 @@
+cd dist
+npx lite-server
+
+--------------
+
+cd ..
+cd server
+npm init -y
+npm install express --save
+//configurar index.js y public/
+npm start
+
+--------------
+
+//github pages
+
+cd ..
+git init
+git remote add origin git@github.com:laura-ig/gh-pages-deploy.git
+git add .
+git commit -m "init"
+git push -u origin main
